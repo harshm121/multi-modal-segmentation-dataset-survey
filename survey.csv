@@ -1,0 +1,16 @@
+﻿Name,Modalities,Year Released,Total points,Unlabeled points,Training points,Test points,Val points,Classes,Used In,Real/Synthetic,Scenes,Annotations,Papers with code,Misc
+Cityscapes,"Disparity, RGB",2016,5000,,2975,1525,500,19,Separation-and-Aggregation Gate ECCV20; RFBNet arXiv’19; Malleable 2.5D Convolution ECCV’20; SSMA IJCV’19;,Real,Urban Street,Semantic Segmentation,https://paperswithcode.com/sota/semantic-segmentation-on-cityscapes-val,27 cities
+NYU Depth v2,"Depth, RGB",2012,1449,,795,654,0,40; 13,Separation-and-Aggregation Gate ECCV 20; ShapeConv ICCV’21; Cascaded Feature Network ICCV’17; CEN NeurIPS’20; Malleable 2.5D Convolution ECCV’20; Spatial Information Guided Convolution arXiv’21;,Real,Indoor,Semantic Segmentation,https://paperswithcode.com/sota/semantic-segmentation-on-nyu-depth-v2,
+SUN-RGBD,"Depth, RGB",2015,10335,,5285,5050,0,37,ShapeConv ICCV’21; Cascaded Feature Network ICCV’17; CEN NeurIPS’20; Spatial Information Guided Convolution arXiv’21; SSMA IJCV’19;,Real,Indoor,Semantic Segmentation,https://paperswithcode.com/sota/semantic-segmentation-on-sun-rgbd,"RGB-D images from NYU depth v2, Berkeley B3DO and SUN3D"
+Stanford Indoor Dataset,"Depth, RGB, Surface Normals",2017,70496,,52903,17593,0,13,"ShapeConv ICCV’21; ",Real,Indoor,Semantic Segmentation,,
+ScanNett,"Depth, RGB",2017,27439,,19466,2537,5436,20,RFBNet arXiv’19; SSMA IJCV’19;,Real,Indoor,Semantic Segmentation,https://paperswithcode.com/sota/semantic-segmentation-on-scannet,
+SceneNet RGB-D,"Depth, Optical Flow, RGB",2016,5.3M,,5M,300k,,,,Synthetic,Indoor,Semantic Segmentation,,
+SYNTHIA-Rand-Cityscapes,"Depth, RGB",2016,9000,,,,,11,SSMA IJCV’19;,Synthetic,Urban Street,Semantic Segmentation,https://paperswithcode.com/sota/semantic-segmentation-on-synthia-cvpr16,
+SYNTHIA-Rand,"Depth, RGB",2016,13407,,,,,11,,Synthetic,Urban Street,Semantic Segmentation,https://paperswithcode.com/sota/semantic-segmentation-on-synthia-cvpr16,
+Freiburg Forest,"Depth, EVI, NDVI, NIR, NRG, RGB",2016,366,,230,136,0,6,SSMA IJCV’19;,Real,Forest,Semantic Segmentation,,
+Tokyo Multi Spectral,"InfraRed, RGB",2017,1569,,785,392,392,8,MFNet IROS’17;,Real,Urban Street,Semantic Segmentation,,
+CATS 2,"InfraRed, RGB",2019,686,,,,,9/96,,Real,"Indoor, Outdoor",Semantic Segmentation,,
+RANUS,"NIR, RGB",2018,4k,36k,,,,10,,Real,Outdoor,Semantic Segmentation,,
+DISCOMAN,"Depth, RGB",2019,600k,,,,,,,Synthetic,Indoor,Semantic Segmentation,,
+TartanAir,"Depth, Disparity, LiDAR, Optical Flow, RGB",2020,1M+,,,,,,,Synthetic,"Indoor, Nature, Outdoor, Public, Rural, Scifi, Urban",Semantic Segmentation,,
+nuScenes,"LiDAR, RADAR, RGB",2020,1.4M RGB; 390k LIDAR; 1.4M RADAR,389k,850,150,,,,Real,Outdoor,"Bounding Boxes, Lidar Segmentation",,
