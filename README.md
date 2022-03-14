@@ -1,4 +1,6 @@
 # multi-modal-segmentation-dataset-survet
 A survey of Multi-Modal Semantic Segmentation datasets
 
-Notion page link [here](https://harshm121.notion.site/6c54edf1ee8748f89e44b92e72c44f75?v=6eab49ace59840ea8bbd1263aaee826d), or the html page [here]('./survey.html').
+Notion page link [here](https://harshm121.notion.site/6c54edf1ee8748f89e44b92e72c44f75?v=6eab49ace59840ea8bbd1263aaee826d)
+
+Or it is available as an html file and a csv file in the repo.
